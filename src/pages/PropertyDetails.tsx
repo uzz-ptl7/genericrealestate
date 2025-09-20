@@ -50,9 +50,9 @@ const PropertyDetails = () => {
 
   const formatPrice = (price: number, category: 'buy' | 'rent') => {
     if (category === 'rent') {
-      return `$${price.toLocaleString()}/mo`;
+      return `RWF ${price.toLocaleString()}/mo`;
     }
-    return `$${price.toLocaleString()}`;
+    return `RWF ${price.toLocaleString()}`;
   };
 
   const nextImage = () => {

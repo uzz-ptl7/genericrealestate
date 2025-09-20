@@ -94,9 +94,9 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-sm text-muted-foreground">
-                      123 Real Estate Blvd<br />
-                      Suite 456<br />
-                      Los Angeles, CA 90210
+                      KG 123 Street<br />
+                      Nyarugenge District<br />
+                      Kigali, Rwanda
                     </p>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ const Contact = () => {
                   <Phone className="h-5 w-5 text-muted-foreground" />
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-sm text-muted-foreground">+250 788 123 456</p>
                   </div>
                 </div>
 
@@ -113,7 +113,7 @@ const Contact = () => {
                   <Mail className="h-5 w-5 text-muted-foreground" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-muted-foreground">info@realestate.com</p>
+                    <p className="text-sm text-muted-foreground">info@realestate.rw</p>
                   </div>
                 </div>
 
@@ -197,8 +197,8 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="font-semibold mb-2">What areas do you serve?</h3>
                 <p className="text-sm text-muted-foreground">
-                  We serve the greater Los Angeles metropolitan area, including all major 
-                  neighborhoods and surrounding communities.
+                  We serve all major cities and districts across Rwanda, including Kigali, 
+                  Rubavu, Huye, and other key locations.
                 </p>
               </CardContent>
             </Card>

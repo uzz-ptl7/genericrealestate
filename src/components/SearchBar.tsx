@@ -96,11 +96,11 @@ const SearchBar = ({ onSearch, className = '' }: SearchBarProps) => {
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="any">Min Price</SelectItem>
-              <SelectItem value="100000">$100K</SelectItem>
-              <SelectItem value="250000">$250K</SelectItem>
-              <SelectItem value="500000">$500K</SelectItem>
-              <SelectItem value="1000000">$1M</SelectItem>
-              <SelectItem value="2000000">$2M+</SelectItem>
+              <SelectItem value="50000000">RWF 50M</SelectItem>
+              <SelectItem value="100000000">RWF 100M</SelectItem>
+              <SelectItem value="200000000">RWF 200M</SelectItem>
+              <SelectItem value="300000000">RWF 300M</SelectItem>
+              <SelectItem value="500000000">RWF 500M+</SelectItem>
             </SelectContent>
           </Select>
         </div>

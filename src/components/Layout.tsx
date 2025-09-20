@@ -37,10 +37,10 @@ const Layout = () => {
             <div>
               <h3 className="font-semibold mb-4">Contact Info</h3>
               <ul className="space-y-2 text-sm text-primary-foreground/80">
-                <li>123 Real Estate Blvd</li>
-                <li>Los Angeles, CA 90210</li>
-                <li>+1 (555) 123-4567</li>
-                <li>info@realestate.com</li>
+                <li>KG 123 Street</li>
+                <li>Kigali, Rwanda</li>
+                <li>+250 788 123 456</li>
+                <li>info@realestate.rw</li>
               </ul>
             </div>
 

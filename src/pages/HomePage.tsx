@@ -41,7 +41,7 @@ const HomePage = () => {
             <span className="block text-accent">Dream Home</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Discover premium properties with our curated collection of exceptional homes
+            Discover premium properties across Rwanda with our curated collection of exceptional homes
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/buy">
@@ -123,7 +123,7 @@ const HomePage = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Market Expertise</h3>
               <p className="text-muted-foreground">
-                Deep local market knowledge and insider insights to help you make informed decisions
+                Deep local market knowledge and insider insights to help you make informed decisions across Rwanda
               </p>
             </div>
 
