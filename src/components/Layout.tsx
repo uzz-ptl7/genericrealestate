@@ -61,8 +61,19 @@ const Layout = () => {
             </div>
           </div>
 
-          <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
-            <p>&copy; 2024 RealEstate. All rights reserved.</p>
+          <div className="flex lg:justify-between lg:flex-row flex-col border-t border-primary-foreground/20 mt-8 pt-8 text-center text-sm text-primary-foreground/60">
+            <p>&copy; 2025 RealEstate. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">
+              Made in Rwanda by the{" "}
+              <a 
+                href="https://www.sitecraftersz.co/" 
+                className="underline hover:text-white transition-colors duration-500" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                Sitecrafters Team
+              </a>
+            </p>
           </div>
         </div>
       </footer>

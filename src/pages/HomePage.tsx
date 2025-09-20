@@ -51,7 +51,7 @@ const HomePage = () => {
               </Button>
             </Link>
             <Link to="/rent">
-              <Button size="lg" variant="outline" className="px-8 py-3 border-white text-white hover:bg-white hover:text-primary">
+              <Button size="lg" variant="secondary" className="px-8 py-3">
                 View Rentals
               </Button>
             </Link>
