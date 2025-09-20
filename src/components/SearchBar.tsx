@@ -62,7 +62,7 @@ const SearchBar = ({ onSearch, className = '' }: SearchBarProps) => {
               </div>
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">All Types</SelectItem>
+              <SelectItem value="all">All Types</SelectItem>
               <SelectItem value="house">House</SelectItem>
               <SelectItem value="apartment">Apartment</SelectItem>
               <SelectItem value="condo">Condo</SelectItem>
@@ -78,7 +78,7 @@ const SearchBar = ({ onSearch, className = '' }: SearchBarProps) => {
               <SelectValue placeholder="Buy/Rent" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">All</SelectItem>
+              <SelectItem value="all">All</SelectItem>
               <SelectItem value="buy">Buy</SelectItem>
               <SelectItem value="rent">Rent</SelectItem>
             </SelectContent>
@@ -95,7 +95,7 @@ const SearchBar = ({ onSearch, className = '' }: SearchBarProps) => {
               </div>
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Min Price</SelectItem>
+              <SelectItem value="any">Min Price</SelectItem>
               <SelectItem value="100000">$100K</SelectItem>
               <SelectItem value="250000">$250K</SelectItem>
               <SelectItem value="500000">$500K</SelectItem>
@@ -115,7 +115,7 @@ const SearchBar = ({ onSearch, className = '' }: SearchBarProps) => {
               </div>
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="">Any</SelectItem>
+              <SelectItem value="any">Any</SelectItem>
               <SelectItem value="1">1+</SelectItem>
               <SelectItem value="2">2+</SelectItem>
               <SelectItem value="3">3+</SelectItem>

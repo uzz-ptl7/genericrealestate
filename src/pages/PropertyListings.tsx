@@ -30,19 +30,23 @@ const PropertyListings = () => {
       );
     }
 
-    if (filters.propertyType) {
+    if (filters.propertyType && filters.propertyType !== 'all') {
       properties = properties.filter(p => p.type === filters.propertyType);
     }
 
-    if (filters.bedrooms) {
+    if (filters.category && filters.category !== 'all') {
+      properties = properties.filter(p => p.category === filters.category);
+    }
+
+    if (filters.bedrooms && filters.bedrooms !== 'any') {
       properties = properties.filter(p => p.bedrooms >= parseInt(filters.bedrooms));
     }
 
-    if (filters.minPrice) {
+    if (filters.minPrice && filters.minPrice !== 'any') {
       properties = properties.filter(p => p.price >= parseInt(filters.minPrice));
     }
 
-    if (filters.maxPrice) {
+    if (filters.maxPrice && filters.maxPrice !== 'any') {
       properties = properties.filter(p => p.price <= parseInt(filters.maxPrice));
     }
 
