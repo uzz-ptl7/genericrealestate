@@ -1,5 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import Navigation from './Navigation';
+import { Building, Facebook, Twitter, Instagram } from 'lucide-react';
 
 const Layout = () => {
   return (
@@ -15,7 +16,7 @@ const Layout = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="h-8 w-8 bg-accent rounded" />
+                <Building className="h-8 w-8 text-accent" />
                 <span className="text-xl font-bold">RealEstate</span>
               </div>
               <p className="text-primary-foreground/80 text-sm">
@@ -47,14 +48,14 @@ const Layout = () => {
             <div>
               <h3 className="font-semibold mb-4">Follow Us</h3>
               <div className="flex space-x-3">
-                <a href="#" className="w-8 h-8 bg-primary-foreground/20 rounded flex items-center justify-center hover:bg-accent transition-colors">
-                  <span className="text-xs">FB</span>
+                <a href="#" className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+                  <Facebook className="h-5 w-5" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-primary-foreground/20 rounded flex items-center justify-center hover:bg-accent transition-colors">
-                  <span className="text-xs">TW</span>
+                <a href="#" className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+                  <Twitter className="h-5 w-5" />
                 </a>
-                <a href="#" className="w-8 h-8 bg-primary-foreground/20 rounded flex items-center justify-center hover:bg-accent transition-colors">
-                  <span className="text-xs">IG</span>
+                <a href="#" className="w-10 h-10 bg-primary-foreground/20 rounded-full flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-colors">
+                  <Instagram className="h-5 w-5" />
                 </a>
               </div>
             </div>
